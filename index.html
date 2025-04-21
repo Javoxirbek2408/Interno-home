@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interno - Interior Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @layer components {
+            .f-j {
+                @apply flex justify-center items-center;
+            }
+            .f-b {
+                @apply flex justify-between items-center;
+            }
+            .f-c {
+                @apply flex flex-col items-center;
+            }
+            .f-a {
+                @apply flex justify-around items-center;
+            }
+            .hov {
+                @apply hover:text-gray-800 duration-300 ease-out;
+            }
+            .icon {
+                @apply transition delay-150 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110;
+            }
+            .col {
+                @apply flex flex-col;
+            }
+            .text-blacck {
+                color: #292F36;
+            }
+            .text-greyy {
+                color: #4D5053;
+            }
+            .bg-blacck {
+                background-color: #292F36;
+            }
+        }
+    </style>
+</head>
+
+<body class="font-[Jost]">
+    <!-- Header Section -->
+    <header class="f-j f-c w-full">
+        <nav class="f-b container py-4 px-4 sm:px-6 flex-col sm:flex-row gap-4 sm:gap-0">
+            <div class="f-b gap-3">
+                <img class="w-6" src="./asete/svg/header_logo.svg" alt="Logo">
+                <p class="font-[DM_Serif_Display] font-bold text-2xl sm:text-3xl"><a href="#">Interno</a></p>
+            </div>
+            <ul class="flex flex-wrap justify-center gap-3 sm:gap-6 [&>li>a]:font-[Jost] [&>li>a]:hover:text-gray-400">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><img src="./asete/svg/hed_logo_right.svg" alt="Search"></a></li>
+            </ul>
+        </nav>
+        <img class="w-full max-w-[1920px] px-4" src="./asete/img/header.svg" alt="Header Image">
+    </header>
+
+    <!-- Main Content -->
+    <main class="w-full px-4 sm:px-6 my-12 sm:my-28">
+        <div class="container mx-auto flex flex-col lg:flex-row gap-8">
+            <!-- Main Content Section -->
+            <section class="w-full lg:w-3/4">
+                <div class="col gap-5">
+                    <h1 class="font-[DM_Serif_Display] text-2xl sm:text-3xl font-medium text-blacck">
+                        Let's Get Solution for Building Construction Work
+                    </h1>
+                    
+                    <img class="w-full h-auto rounded-xl" src="./asete/img/main-1.png" alt="Construction Work">
+                    
+                    <div class="f-b flex-col sm:flex-row gap-3 cursor-pointer text-sm sm:text-base">
+                        <span><a href="#">26 December,2022</a></span>
+                        <div class="f-b gap-2 sm:gap-4 text-greyy">
+                            <a href="#">Interior /</a>
+                            <a href="#">Design /</a>
+                            <a href="#">Home /</a>
+                            <a href="#">Decore</a>
+                        </div>
+                    </div>
+                    
+                    <div class="font-[Jost] col gap-5 text-greyy my-8 sm:my-14">
+                        <p>
+                            Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary
+                            to popular belief.There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injecthumour, or randomised words which don't
+                            look even slightly believable.
+                        </p>
+                        <p>
+                            Embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                            Internet tend to repeat predefined chunks as necessary.
+                        </p>
+                    </div>
+                    
+                    <div class="w-full h-auto sm:h-[280px] rounded-3xl bg-[#F4F0EC] p-8 sm:p-12">
+                        <div class="col text-center">
+                            <span class="font-[DM_Serif_Display] text-6xl sm:text-[120px] text-[#CDA274]">,,</span>
+                            <span class="font-[DM_Serif_Display] italic text-xl sm:text-2xl text-[#CDA274]">
+                                "The details are not the details. They make the design."
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h2 class="font-[DM_Serif_Display] text-2xl sm:text-3xl font-normal text-blacck mb-5">
+                            Design sprints are great
+                        </h2>
+                        
+                        <p class="font-[Jost] text-greyy mb-5">
+                            Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere
+                            in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered.
+                        </p>
+                        
+                        <div class="col gap-3">
+                            <div class="flex gap-3 font-[Jost] text-greyy">
+                                <span>1</span>
+                                <span>
+                                    Contrary to popular belief.There are many variations of passages of Lorem
+                                    Ipsum available, but the majority have suffered.
+                                </span>
+                            </div>
+                            <div class="flex gap-3 font-[Jost] text-greyy">
+                                <span>2</span>
+                                <span>
+                                    Contrary to popular belief.There are many variations of passages of Lorem
+                                    Ipsum available, but the majority have suffered.
+                                </span>
+                            </div>
+                            <div class="flex gap-3 font-[Jost] text-greyy">
+                                <span>3</span>
+                                <span>
+                                    Contrary to popular belief.There are many variations of passages of Lorem
+                                    Ipsum available, but the majority have suffered.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col gap-8 mt-16 sm:mt-40">
+                        <img class="w-full h-auto rounded-xl" src="./asete/img/main-2.png" alt="Design Image">
+                        
+                        <p class="font-[Jost] text-greyy">
+                            Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere
+                            in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered.
+                        </p>
+                        
+                        <div class="f-b flex-col sm:flex-row gap-4 sm:gap-0">
+                            <div class="f-b flex-col sm:flex-row gap-3 sm:gap-5">
+                                <span class="font-[DM_Serif_Display] text-lg sm:text-xl font-bold text-blacck">Tags</span>
+                                <button type="button" class="tag-button">Kitchen</button>
+                                <button type="button" class="tag-button">Bedroom</button>
+                            </div>
+                            <div class="f-b gap-6 sm:gap-12">
+                                <a href="#"><img class="icon" src="./asete/svg/facebook.svg" alt="Facebook"></a>
+                                <a href="#"><img class="icon" src="./asete/svg/twitter.svg" alt="Twitter"></a>
+                                <a href="#"><img class="icon" src="./asete/svg/in.svg" alt="LinkedIn"></a>
+                                <a href="#"><img class="icon" src="./asete/svg/ista.svg" alt="Instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="col gap-8 mt-16 sm:mt-32">
+                        <h3 class="font-[DM_Serif_Display] text-xl sm:text-2xl">Leave a Reply</h3>
+                        
+                        <form class="col gap-6 w-full">
+                            <div class="f-b flex-col sm:flex-row gap-6 w-full">
+                                <input class="form-input" placeholder="Name" type="text">
+                                <input class="form-input" placeholder="Email" type="email">
+                            </div>
+                            <div class="f-b flex-col sm:flex-row gap-6 w-full">
+                                <input class="form-input" placeholder="Website" type="text">
+                                <input class="form-input" placeholder="Phone" type="number">
+                            </div>
+                            <textarea class="form-textarea" placeholder="Hello I am Interested in.."></textarea>
+                            
+                            <div class="w-full border-b-2 border-[#CDA274] mt-5 sm:mt-10"></div>
+                            
+                            <div class="flex items-center gap-2 font-[Jost] text-sm text-[#CDA274]">
+                                <input type="checkbox">
+                                <span>Save my name, email, and website in this browser for the next time I comment.</span>
+                            </div>
+                            
+                            <button type="submit" class="submit-button group">
+                                Send Now
+                                <img class="group-hover:translate-x-3 transition-transform duration-300" src="./asete/svg/Vector.svg" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Sidebar -->
+            <aside class="w-full lg:w-1/4 mt-12 lg:mt-0">
+                <!-- Search Box -->
+                <div class="f-b w-full h-16 rounded-2xl p-4 cursor-pointer text-[#CDA274] font-[Jost] bg-[#fdf2e6]">
+                    <span>Search</span>
+                    <a href="#"><img src="./asete/svg/search.svg" alt="Search"></a>
+                </div>
+                
+                <!-- Latest News -->
+                <div class="col gap-4 mt-8 sm:mt-12">
+                    <h4 class="font-[DM_Serif_Display] font-medium text-lg sm:text-xl">Latest News</h4>
+                    
+                    <div class="col gap-5">
+                        <div class="news-item">
+                            <div class="f-b">
+                                <span class="font-[DM_Serif_Display] text-sm sm:text-base">We Focus On Comfort And Gorgeous</span>
+                                <span class="font-[Jost] text-xs sm:text-sm text-greyy">06/02/2020</span>
+                            </div>
+                        </div>
+                        
+                        <div class="news-item">
+                            <div class="f-b">
+                                <span class="font-[DM_Serif_Display] text-sm sm:text-base">We Focus On Comfort And Gorgeous</span>
+                                <span class="font-[Jost] text-xs sm:text-sm text-greyy">06/02/2020</span>
+                            </div>
+                        </div>
+                        
+                        <div class="news-item">
+                            <div class="f-b">
+                                <span class="font-[DM_Serif_Display] text-sm sm:text-base">We Focus On Comfort And Gorgeous</span>
+                                <span class="font-[Jost] text-xs sm:text-sm text-greyy">06/02/2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Categories -->
+                <div class="col w-full h-auto sm:h-[400px] mt-8 sm:mt-12 p-5 bg-[#faecde] rounded-3xl">
+                    <h4 class="font-[DM_Serif_Display] font-medium text-lg sm:text-xl">Categories</h4>
+                    
+                    <div class="col gap-5 mt-4">
+                        <div class="category-item">
+                            <span class="font-[Jost] text-sm sm:text-base text-greyy">Decoration</span>
+                        </div>
+                        
+                        <div class="category-item">
+                            <span class="font-[Jost] text-sm sm:text-base text-greyy">Door Windows</span>
+                        </div>
+                        
+                        <div class="category-item">
+                            <span class="font-[Jost] text-sm sm:text-base text-greyy">Home Land</span>
+                        </div>
+                        
+                        <div class="category-item">
+                            <span class="font-[Jost] text-sm sm:text-base text-greyy">Roof Installation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tags -->
+                <div class="col gap-4 mt-8 sm:mt-12">
+                    <h4 class="font-[DM_Serif_Display] font-normal text-lg sm:text-xl">Tags</h4>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <button type="button" class="tag-button">Kitchen</button>
+                        <button type="button" class="tag-button">Bedroom</button>
+                        <button type="button" class="tag-button">Building</button>
+                        <button type="button" class="tag-button">Architecture</button>
+                        <button type="button" class="tag-button">Kitchen Planning</button>
+                        <button type="button" class="tag-button">Bedroom</button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 sm:px-6 mt-12 sm:mt-20 py-8">
+        <div class="flex flex-col md:flex-row gap-8 md:gap-16 justify-between">
+            <!-- Company Info -->
+            <div class="col gap-4 w-full md:w-1/4">
+                <div class="flex items-center gap-2">
+                    <img class="w-8" src="./asete/svg/header_logo.svg" alt="Logo">
+                    <p class="font-[DM_Serif_Display] text-2xl sm:text-3xl font-bold">Interno</p>
+                </div>
+                <p class="font-semibold text-sm sm:text-base text-gray-500">
+                    It is a long established fact that a reader will be distracted lookings.
+                </p>
+                <div class="flex gap-4 sm:gap-6 mt-2">
+                    <a href="#"><img class="icon w-5 h-5" src="./asete/svg/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img class="icon w-5 h-5" src="./asete/svg/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img class="icon w-5 h-5" src="./asete/svg/in.svg" alt="LinkedIn"></a>
+                    <a href="#"><img class="icon w-5 h-5" src="./asete/svg/ista.svg" alt="Instagram"></a>
+                </div>
+            </div>
+            
+            <!-- Pages Links -->
+            <div class="col gap-3 w-full md:w-auto">
+                <a class="font-bold text-blacck text-lg" href="#">Pages</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">About Us</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Our Projects</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Our Team</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Contact Us</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Services</a>
+            </div>
+            
+            <!-- Services Links -->
+            <div class="col gap-3 w-full md:w-auto">
+                <a class="font-bold text-blacck text-lg" href="#">Services</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Kitchen</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Living Area</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Bathroom</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Dinning Hall</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">Bedroom</a>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="col gap-3 w-full md:w-1/4">
+                <a class="font-bold text-blacck text-lg" href="#">Contact</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">
+                    55 East Birchwood Ave.<br>Brooklyn, New York 11201
+                </a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">contact@interno.com</a>
+                <a class="text-gray-500 hover:text-gray-700 text-sm sm:text-base" href="#">(123) 456 - 7890</a>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* Custom CSS for elements that need more specific styling */
+        .tag-button {
+            @apply w-auto px-4 cursor-pointer h-10 bg-[#f1f1f1] hover:bg-[#292F36] hover:text-white rounded-xl duration-300 text-sm sm:text-base;
+        }
+        
+        .form-input {
+            @apply w-full sm:w-[300px] border-b-2 border-gray-500 py-2 focus:outline-none focus:border-[#CDA274];
+        }
+        
+        .form-textarea {
+            @apply w-full h-32 border-b-2 border-gray-500 py-2 focus:outline-none focus:border-[#CDA274];
+        }
+        
+        .submit-button {
+            @apply f-j gap-2 w-[180px] sm:w-[200px] h-[50px] mt-4 bg-[#f1f1f1] hover:bg-[#292F36] hover:text-white rounded-xl duration-300 text-sm sm:text-base;
+        }
+        
+        .news-item {
+            @apply pb-3 border-b border-[#CDA274];
+        }
+        
+        .category-item {
+            @apply pb-3 border-b border-[#CDA274];
+        }
+        
+        @media (max-width: 640px) {
+            .form-input, .form-textarea {
+                @apply w-full;
+            }
+        }
+    </style>
+</body>
+
+</html>
